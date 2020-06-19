@@ -28,7 +28,7 @@ function clean() {
   return del(["./vendor/"]);
 }
 
-// Bring third party dependencies from node_modules into vendor directory
+// Bring third party dependencies from node_modules into vendor directory //////////////////////////
 function modules() {
   // Bootstrap
   var bootstrap = gulp.src('./node_modules/bootstrap/dist/**/*')
